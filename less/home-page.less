@@ -1,22 +1,30 @@
 .home {
 
+  .content-welcome {
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #C0C0C0;
+    h2 {
+      padding-top: 10px;
+    }
+    p {
+      padding-bottom: 30px;
+    }
+  }
+
+
+
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
     }
-
     .img-content {
       width: 48%;
       padding-left: 1%;
-
       img {
         border-radius: 10px;
       }
@@ -56,6 +64,17 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      .btn {
+        width: 80%;
+        height: 20%;
+        // border: 2px solid;
+        text-align: center;
+        font-size: 20px;
+        padding: 15px;
+        background-color: @eastern-blue;
+        border-radius: 15px;
+        color: white;
+      }
     }
   }
 }// home
