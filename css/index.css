@@ -180,7 +180,13 @@ header nav {
   padding-bottom: 15px;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+  }
+}
 header nav .h1 {
+  border: 3px solid orange;
   display: flex;
   margin-right: 50px;
 }
@@ -277,6 +283,6 @@ header nav .main-navLinks a {
   font-size: 20px;
   padding: 15px;
   background-color: #17A2B8;
-  border-radius: 15px;
+  border-radius: 10px;
   color: white;
 }
